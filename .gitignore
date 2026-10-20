@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Build output - binaries are published as GitHub releases, not committed
+packaging/.buildenv/
+packaging/build/
+packaging/dist/
+packaging/SystemWatch.spec
+release/
+
+# Superseded first prototype, kept locally only
+old/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

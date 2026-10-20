@@ -1,0 +1,75 @@
+SYSTEMWATCH - HOW TO INSTALL
+============================
+
+SystemWatch is a small, read-only monitor for Windows. It watches the Windows
+event log and explains what your PC is doing in plain English, with a green /
+yellow / red health indicator. It also shows what is plugged in (USB drives,
+phones), which network you are on, and which programs and documents were
+opened recently.
+
+It only READS. It never changes Windows settings, never deletes logs, and does
+not send anything over the internet.
+
+Requirements: Windows 10 or 11, 64-bit. Nothing else - Python is NOT needed.
+
+
+INSTALL (about 1 minute)
+------------------------
+1. Download SystemWatch-Setup-<version>.exe from
+   https://github.com/Baraa-Melhem/SystemWatch/releases/latest
+   and double-click it.
+
+2. Windows may show a blue box: "Windows protected your PC".
+   This happens because the program is new and not from a big publisher.
+   Click  "More info"  and then  "Run anyway".
+
+3. Click  Next  through the installer. You can choose:
+     [x] Create a desktop shortcut
+     [x] Start SystemWatch in the tray when I sign in to Windows
+   No administrator password is needed. It installs only for you.
+
+4. Click  Finish. SystemWatch opens with a short welcome that explains what
+   it records. You can untick "Record the programs and documents I open"
+   there if you prefer.
+
+Already have an older version? Just run the new installer - it replaces the
+old one and keeps your settings and history.
+
+
+USING IT
+--------
+- Open it from the Start menu or the desktop shortcut.
+- Closing the window does NOT quit it. It keeps running as a small shield icon
+  in the notification area (bottom-right, near the clock - you may need to
+  click the ^ arrow to see it). Right-click the shield to pause or quit.
+- Tabs:
+    Live events          what Windows is reporting, explained simply
+    Devices & Network    what is plugged in, Wi-Fi/network details
+    Programs & Files     programs and documents opened recently
+- Click an event to read what it means and whether you need to do anything.
+- Need help from IT? Right-click the event and choose "Copy details", then
+  paste it into your email or chat.
+- Handy keys: Ctrl+F search, Ctrl+C copy event, F1 help, Ctrl+Q quit.
+- It uses almost no CPU and about 70 MB of memory.
+
+
+PRIVACY
+-------
+Everything SystemWatch records stays on your PC, in your own user folder:
+the newest 50 devices plugged in, and the newest 50 programs and documents
+you opened. Nothing is sent anywhere. To stop recording programs and
+documents: Settings > Privacy > untick "Record the programs I open...".
+
+
+UNINSTALL
+---------
+Settings > Apps > Installed apps > SystemWatch > Uninstall.
+It stops SystemWatch, removes it, and asks whether to delete your settings
+and recorded history too.
+
+
+NOTES
+-----
+- A few logs (for example "Sign-ins & security") can only be read by an
+  administrator. SystemWatch simply skips them. Everything else works.
+- If your antivirus asks about SystemWatch.exe, it is safe to allow it.

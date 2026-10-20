@@ -1,0 +1,8 @@
+# SystemWatch dependencies
+# Install with:  python -m pip install -r requirements.txt
+#
+# Python 3.11, 64-bit, on Windows 10 or 11.
+
+PyQt5>=5.15        # user interface
+pywin32>=305       # read-only Windows Event Log API (win32evtlog)
+psutil>=5.9        # new-process detection, and its own CPU/RAM in the status bar

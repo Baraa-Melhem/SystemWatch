@@ -1,0 +1,6 @@
+# Build-only environment for the installer (see build.bat).
+PyQt5==5.15.11
+pywin32>=305
+psutil>=5.9
+pyinstaller>=6.10
+pillow>=10
